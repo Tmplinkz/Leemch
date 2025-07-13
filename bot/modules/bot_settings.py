@@ -442,15 +442,15 @@ async def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'WZML-X'
+        AUTHOR_NAME = 'ᴀɴɪᴍᴇ x ᴜɴɪᴠᴇʀsᴇ'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/WZML_X'
+        AUTHOR_URL = 'https://t.me/Anime_x_Universe'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'WeebZone-X'
+        TITLE_NAME = 'ᴀɴɪᴍᴇ x ᴜɴɪᴠᴇʀsᴇ'
         
     COVER_IMAGE = environ.get('COVER_IMAGE', '')
     if len(COVER_IMAGE) == 0:
